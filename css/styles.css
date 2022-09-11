@@ -1,0 +1,796 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0;
+}
+
+
+li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+i{
+	padding: 0 5px;
+}
+
+.header{
+	background: #fff;
+	position: relative;
+}
+
+.header-space{
+	width: 1100px;
+	display: block;
+    margin: auto;
+}
+
+.header-logo{
+	width: 10%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.menu-bar{
+	display: inline-block;
+	vertical-align: middle;
+	width: 600px
+	text-align: right;
+}
+
+
+.list{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.list-a{
+	padding: 20px 20px;
+	color: black;
+}
+
+.content{
+	position: absolute;
+	top: 99%;
+	left: 0;
+	right: 0;
+	background: #fff;
+	display: none;
+	text-align: left;
+	height: 180px;
+	z-index: 2;
+}
+
+.black{
+	padding: 0 10px;
+	box-sizing: border-box;
+}
+
+.content-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+.list:hover .content{
+	display: block;
+}
+
+.first-cont{
+	display: inline-block;
+	vertical-align: top;
+	width: 24%;
+
+}
+
+.content-2{
+	position: absolute;
+	top: 99%;
+	left: 0;
+	right: 0;
+	display: none;
+	background: #fff;
+	font-size: 11px;
+	z-index: 2;
+}
+
+.content-2-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+	text-align: left;
+}
+
+.second-cont{
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+
+.list:hover .content-2{
+	display: block;
+}
+
+.dark{
+	background: black;
+}
+
+.area{
+	text-align: left;
+}
+
+.content-3{
+	position: absolute;
+	top: 99%;
+	left: 0;
+	right: 0;
+	display: none;
+	background: #fff;
+	font-size: 11px;
+	z-index: 2;
+}
+
+.default{
+	padding: 0;
+	box-sizing: border-box;
+	line-height: 30px;
+}
+
+.content-3-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+	text-align: left;
+}
+
+.third-cont{
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.list:hover .content-3{
+	display: block;
+}
+.img-1{
+	position: relative;
+}
+
+.body-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+.body-head{
+	text-align: center;
+	line-height: 35px;
+}
+
+.pic-1{
+	width: 33%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.overlay{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	color: #fff;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.overlay p{
+	height: 0;
+	overflow: hidden;
+	transition: all .5s ease;
+}
+
+.overlay img{
+	height: 0;
+	overflow: hidden;
+	transition: all 1s ease;
+}
+
+.pic-1:hover .overlay p{
+	height: 60px;
+}
+
+.pic-1:hover .overlay img{
+	height: auto;
+}
+
+.content-4{
+	position: absolute;
+	top: 99%;
+	left: 0;
+	right: 0;
+	display: none;
+	background: #fff;
+	z-index: 2;
+}
+
+.content-4-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+.list:hover .content-4{
+	display: block;
+}
+
+.fourth-cont{
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 27px;
+	text-align: left;
+}
+
+.listing{
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 45px;
+	text-align: left;
+}
+
+.header-clg{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 400px);
+}
+
+.photo{
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+	transition: all 1s ease;
+	overflow: hidden;
+}
+
+.zoom{
+	overflow: hidden;
+	vertical-align: top;
+	transition: all .5s ease;
+}
+
+.photo:hover .zoom{
+	transform: scale(1.1,1.1);
+}
+
+.content-5{
+	position: absolute;
+	top: 99%;
+	left: 0;
+	right: 0;
+	display: none;
+	background: #fff;
+	z-index: 2;
+}
+
+.content-5-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+.list:hover .content-5{
+	display: block;
+}
+
+.fifth-cont{
+	width: 19%;
+	display: inline-block;
+	vertical-align: top;
+	text-align: left;
+}
+
+.up{
+	line-height: 40px;
+}
+
+.ethos-supp{
+	width: 145px;
+	display: block;
+	margin: auto;
+}
+
+.ethos{
+	padding: 12px 15px;
+	background: black;
+	color: #fff;
+}
+.ethos-supp:hover .ethos{
+	background: #fff;
+	color: black;
+	border: 1px solid black;
+}
+
+.picture{
+	background: lightgrey;
+}
+
+.picture-space{
+	display: block;
+	margin: auto;
+	width: 1100px;
+	margin-top: 40px;
+}
+
+.pic-text{
+	text-align: center;
+}
+
+.pic-text h5{
+	padding-top: 30px;
+}
+
+.body-text{
+	text-align: center;
+	padding-top: 40px;
+}
+
+.features{
+	margin-top: 40px;
+}
+
+.feature-1{
+	position: relative;
+	width: 22%;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 30px;
+	margin: 10px;
+}
+
+.art{
+	text-align: center;
+}
+
+.art-text{
+	width: 80%;
+	display: block;
+	margin: auto;
+	text-align: center;
+    
+}
+
+
+.feature-1:hover{
+	background: white;
+}
+
+/*.linux{
+	position: absolute;
+	top: 90%;
+	left: 2%;
+	transition: all .5s ease;
+	opacity: 0;
+}*/
+
+.scar{
+	position: absolute;
+	top: 90%;
+	left: 2%;
+	transition: all .5s ease;
+	opacity: 0;
+	padding: 10px 0;
+	box-sizing: border-box;
+}
+
+.feature-1:hover .scar{
+	left: 45%;
+	opacity: 1;
+}
+
+.many{
+	margin-top: 100px;
+}
+
+.many-text{
+	text-align: center;
+}
+
+
+.many-pic-1{
+	width: 25%;
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+}
+
+.many-pic-1 img{
+	width: 100%;
+	vertical-align: top;
+}
+
+
+
+
+.overlay-2{
+	width: 100%;
+	position: absolute;
+	bottom: calc(40% - 50px);
+	color: #fff;
+	text-align: center;
+}
+
+.overlay-2 p{
+	height: 0;
+	overflow: hidden;
+	transition: all .5s ease;
+
+}
+
+.tags{
+	height: 0;
+	overflow: hidden;
+	transition: all .5s ease;
+}
+
+.many-pic-1:hover .overlay-2 p{
+	height: 80px;
+}
+
+.many-pic-1:hover .tags{
+	height: 40px;
+}
+
+.many-pic-1:hover .overlay-2{
+	
+
+}
+
+.go{
+	padding: 12px 15px;
+	background: white;
+	color: black;
+	
+	border: 1px solid black;
+}
+
+.go-parent{
+	display: block;
+
+	margin: 40px auto;
+	width: 280px;
+}
+
+.go-parent:hover .go{
+	color: #fff;
+	background: black;
+	border: 1px solid black;
+}
+
+.trust{
+	background: url(/home/chhavikant/Downloads/skyline.jpg);
+	margin-top: 70px;
+}
+
+.trust-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+.trust-text{
+	text-align: center;
+	padding: 20px 0;
+}
+
+.trust-pic{
+	width: 31%;
+	display: inline-block;
+	vertical-align: top;
+	line-height: 40px;
+	margin-bottom: 40px;
+	
+}
+
+.heading{
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.shell, .shell-3, .shell-2{
+	width: 47%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;
+}
+
+/*.shell-2{
+	width: 47%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 1%;
+}
+*/
+.running img{
+	display: block;
+	margin: auto;
+}
+
+.bbg{
+	display: block;
+	margin: auto;
+	width: 60%;
+}
+
+.open-sup{
+    background: #fff;
+}
+
+.open{
+	color: white;
+}
+
+.open-supp:hover .open{
+	background: white;
+	color: black;
+}
+/*
+.pop-up{
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.4);
+}*/
+
+/*.pop-up-text{
+	width: 500px;
+	padding: 20px;
+	background: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translatey(-50%);
+	position: relative;
+}*/
+
+/*.cancel{
+	position: absolute;
+	top: -20px;
+	right: 3px;
+	color: #fff;
+}*/
+
+.end-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+.end-text{
+	text-align: center;
+	margin: 50px 0;
+}
+
+.end-advt{
+	text-align: center;
+}
+
+.end-advt-1{
+	width: 31%;
+	display: inline-block;
+	vertical-align: top;
+	box-shadow: 2px 2px 5px #ccc;
+	margin: 5px;
+	line-height: 26px;
+}
+
+.scale{
+	overflow: hidden;
+}
+
+.scale-zoom{
+	overflow: hidden;
+	transition: all .5s ease;
+	vertical-align: top;
+}
+
+.scale:hover .scale-zoom{
+	transform: scale(1.1,1.1);
+}
+
+.value{
+	margin-top: 100px;
+	background: lightgrey;
+    width: 100%;
+}
+
+.value-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+}
+
+.black-effect{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: -50px;
+	width: 40%;
+	height: 550px;
+	background: url(file:///home/chhavikant/Downloads/www.ranosys.com/Ranosys%20-%20Software%20Development%20Company%20in%20India%20-%203-9-2022%207-49-28%20am/bg_pattern_black_0.jpg);
+}
+
+.value-text{
+	padding: 40px 30px;
+    line-height: 30px;
+    color: #fff;
+}
+
+.value-clg{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 446px);
+}
+
+.clg-1{
+	width: 30%;
+	height: 80px;
+	display: inline-block;
+	vertical-align: middle;
+	background: #fff;
+	margin: 1%;
+	text-align: center;
+}
+
+.unique{
+	color: orange;
+	padding-left: 10px;
+}
+
+
+
+.stair{
+	position: relative;
+	height: 650px;
+}
+
+.stair-text{
+	position: absolute;
+	top: 5%;
+	left: 4%;
+	color: #fff;
+	width: 40%;
+	line-height: 25px;
+}
+
+.stair-text a{
+	padding: 12px 12px;
+	border: 1px solid #fff;
+}
+
+.add{
+	display: inline-block;
+	vertical-align: middle;
+    
+}
+
+.video{
+	position: relative;
+	
+}
+
+.vd-text{
+	position: absolute;
+	top: 40%;
+	left: 28%;
+	font-size: 35px;
+	color: #fff;
+	text-align: center;
+}
+
+.contact{
+	border: 1px solid black;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contact:hover .list-b{
+	background: black;
+	color: white;
+}
+
+.list-b{
+	padding: 3px 0;
+	box-sizing: border-box;
+}
+
+.india{
+	display: inline-block;
+	vertical-align: middle;
+	width: calc(100% - 1050px);
+	text-align: center;
+}
+
+.india img{
+	border-radius: 30px;
+}
+
+.read{
+	color: red;
+}
+
+
+.form-space{
+	width: 1100px;
+	display: block;
+	margin: auto;
+	box-shadow: 2px 2px 4px #ccc;
+}
+
+.form-text{
+	display: inline-block;
+	vertical-align: top;
+	width: 49%;
+}
+
+.resume{
+	display: inline-block;
+	vertical-align: top;
+	width: calc(100% - 550px);
+}
+
+.resume-1, .resume-2{
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px 0;
+}
+
+.resume-3 input{
+	width: 93%;
+	margin: 10px 0;
+}
+
+input{
+   height: 40px;
+   width: 250px;
+}
+
+textarea{
+	width: 93%;
+	margin: 10px 0;
+}
+
+.btn{
+	text-align: right;
+	width: 93%;
+}
+
+.btn button{
+	padding: 15px 20px;
+	color: #fff;
+	background: black;
+}
+ 
+.akm{
+	width: 3px;
+	height: 25px;
+	background: orange;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.akm-supp{
+	width: calc(100% - 5px);
+	display: inline-block;
+	vertical-align: top;
+}
